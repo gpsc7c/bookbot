@@ -12,7 +12,7 @@ def countChars(bk):
                 countDict[char.lower()] = 1
     return countDict
 #turns a dictionary into an list of dictionaries
-def sortedDicts(dicti)
+def sortedDicts(dicti):
     listionary = []
     for key in dicti:
         listionary.append({"char": key, "num": dicti[key]})
